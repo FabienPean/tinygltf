@@ -51,7 +51,7 @@ add_executable(glview
 target_link_libraries ( glview
   ${DRACO_LIBRARY} 
   ${GLFW3_UNIX_LINK_LIBRARIES}
-  ${GLEW_LIBRARY}
+  ${GLEW_LIBRARIES}
   ${GLFW3_glfw_LIBRARY}
   ${OPENGL_gl_LIBRARY}
   ${OPENGL_glu_LIBRARY}
